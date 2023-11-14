@@ -3,13 +3,20 @@ padding:0px ;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 box-sizing: border-box;}
 
- .navigation{font-size: 25px;
- }
+body{background-color: #000000;   
+    color: #f0f0f0;
+}
+
+span{color: rgb(210, 34, 110);
+}
+
+.navigation{padding-top: 2%;
+    font-size: 25px;
+}
 
  nav ul li{display: inline-block;
     list-style: none;
 }
-
 
 nav ul li a{text-decoration: none;
     color:#f0f0f0;
@@ -27,25 +34,14 @@ nav ul li a::after{
     transition:0.5s ;
 }
 
-.icons{ display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
- 
-    
-    
-
-}
-.icons img{width: 48px;
-    
-
-}
-
-
-
-
 ul li a:hover::after{
     width: 100%;
 }
 
+.Text{display: flex;
+    margin-top: 10%;
+    margin-right: 15%;}
+    
 
 .content{ margin-left: 15%;
     margin-top: 7%; 
@@ -54,50 +50,6 @@ ul li a:hover::after{
 .hireme{display: flex;
     margin-top:2% ;
 }
-
-.Aboutme{display: flex;
-    background-color:rgba(42, 40, 42, 0.623) ;
-    margin-top: 3%;
-}
-
-.Information{margin-left:2%;}
-
-.hobbies{display: grid;
-    grid-column: 1fr 1fr 1fr ;
-}
-
-.tab-titles{display: flex;
-    font-weight: 500px;
-    font-style: oblique;
-}
-
-.tab-link{margin-left: 5%;
-    cursor: pointer;
-    position: relative;
-}
-
-.tab-link::after{
-   content: ''; 
-   width: 0;
-   height: 3px;
-   background: blue;
-   position: absolute;
-   left: 0;
-   bottom: -8px;
-   transition:0.5s ;
-}
-.tab-link.active-link::after{width: 50%;}
-
-.tab-content{display: none;
-}
-
-.tab-content.active-tab{display: block;}
-
-
-
-
-
-
 
 .box{border: 1px solid palevioletred;
     background-color:palevioletred;
@@ -111,35 +63,54 @@ ul li a:hover::after{
     width: 122px;
     border-radius: 5%;
     color: rgb(106, 32, 176);
+    background-color:palevioletred;
 }
 
-.Text{display: flex;
-margin-top: 10%;
-margin-right: 15%;}
-
-
-   
- p{ margin-top: 2%;}
-
- .Skills{display: grid;
-     grid-template-columns: 1fr 1fr 1fr;
-     gap: 19%;
-    width: 180px;
-    height: 160px;
-    margin-left:15%;
+.Aboutme{display: flex;
+    background-color:rgb(42, 40, 42) ;
     margin-top: 3%;
- }
+}
 
- .personal-skills{display: block;
-    width: 100%;
-    background: #c8c8c8;
+#Image{
+    height: 400px;
+    width: 370px;
+    background-image:url(TondaniGrad.png) ;
+    background-size: cover;
+    background-position: left;
+    margin-left:1%;
+    border-radius: 200px;
+}
 
+#Image2{
+    height: 417px;
+    width: 370px;
+    background-image:url(Tondani.jpeg) ;
+    background-size: cover;
+    background-position: left;
+    margin-left: 15%;
+}
 
+.Information{margin-left:2%;
+}
+
+.icons{ display: flex;
     
-
  }
 
- .outer{margin-left: 130%;
+.icons img{width: 38px;
+}
+
+
+.Skills{display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 19%;
+   width: 180px;
+   height: 160px;
+   margin-left:5%;
+   
+}
+
+.outer{margin-left: 130%;
     width: 160px;
     height: 160px;
     border-radius: 50%;
@@ -204,29 +175,55 @@ margin-right: 15%;}
         .number2{font-weight: 600px;
             color:rgb(190, 48, 157);}
 
-        .contact1{
-            display: flex;
-        }
 
-        .part1{display: grid;
-            grid-template-columns:1fr 1fr 1fr ;
-            
 
-        }
+.border1{border: 1px solid palevioletred;
+    background-color:rgb(210, 34, 110);
+    height: 44px;
+    width: 777px;
+    color: rgb(15, 15, 15);
+    margin-top: 3%;}
 
-        .part2{display: grid;
-            grid-template-columns:1fr 1fr 1fr ;
-        }
+    .part1{display: grid;
+        grid-template-columns:1fr 1fr 1fr ;
+    }
 
-        .contact2{display:grid;
-            grid-template-columns:1fr 1fr ;
-        }
+    .part2{display: grid;
+        grid-template-columns:1fr 1fr 1fr ;
+    }
 
-        .contact4{margin-left: 8%;}
-        .contact4 i{
-            color: #f0f0f0;
-            font-size: 3rem;
-        }
+    .contact{
+        
+        grid-template-columns: 1fr 1fr;
+    }
 
+
+    .contact2{margin-left:25%;
+    margin-top: 1%;}
+
+    .contact2 i{
+        color: #f0f0f0;
+        font-size: 3rem;
+    }
+
+
+
+
+
+
+
+
+   
+
+ 
+
+ 
+
+ 
         
 
+       
+
+    
+
+        
