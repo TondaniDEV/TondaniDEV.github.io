@@ -1,0 +1,35 @@
+<div class="personal-skills" style="width: 100%;">
+<p style="margin-bottom: 20px;">Personal skills </p>
+
+<span>cooking</span> 
+    <div class="w3-border" style="width: 100%;">
+      <div class="w3-grey" style="height:24px;width:20%"></div>
+      </div>
+
+      <span>cooking</span> 
+<div class="w3-light-grey" style="margin-top: 20%;">
+<div class="w3-grey" style="height:24px;width:100%"></div>
+</div>
+
+
+
+<div class="w3-light-grey" style="margin-top: 20%;">
+<div class="w3-grey" style="height:24px;width:50%"></div>
+</div><br>
+
+<span>cooking</span> 
+<div class="w3-light-grey">
+<div class="w3-grey" style="height:24px;width:75%"></div>
+</div>
+
+<span>cooking</span>
+<div class="w3-light-grey" style="margin-top: 20%;">
+    <div class="w3-grey" style="height:24px;width:50%"></div>
+    </div><br>
+
+    <span>cooking</span> 
+<div class="w3-light-grey">
+    <div class="w3-grey" style="height:24px;width:50%"></div>
+    </div><br>
+
+</div>
