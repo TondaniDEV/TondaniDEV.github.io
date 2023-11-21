@@ -1,0 +1,382 @@
+*{margin:0px ;
+padding:0px ;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+box-sizing: border-box;}
+
+body{background-color: #000000;   
+    color: #f0f0f0;
+}
+
+span{color: rgb(210, 34, 110);
+}
+
+.navigation{padding-top: 2%;
+    font-size: 25px;
+}
+
+ nav ul li{display: inline-block;
+    list-style: none;
+}
+
+nav ul li a{text-decoration: none;
+    color:#f0f0f0;
+    position: relative;
+}
+
+nav ul li a::after{
+    content:'' ;
+    width: 0;
+    height: 3px;
+    background: rgb(190, 48, 157);
+    position:absolute;
+    left: 0;
+    bottom: -6px;
+    transition:0.5s ;
+}
+
+ul li a:hover::after{
+    width: 100%;
+}
+
+.Text{display: flex;
+    margin-top: 10%;
+    margin-right: 15%;}
+    
+
+.content{ margin-left: 15%;
+    margin-top: 7%; 
+}
+
+.hireme{display: flex;
+    margin-top:2% ;
+}
+
+.box{border: 1px solid palevioletred;
+    background-color:palevioletred;
+    height: 44px;
+    width: 92px;
+    border-radius: 5%;
+    color: rgb(106, 32, 176);
+}
+.box2{border: 1px solid palevioletred;
+    height: 44px;
+    width: 122px;
+    border-radius: 5%;
+    color: rgb(106, 32, 176);
+    background-color:palevioletred;
+}
+
+.Aboutme{display: flex;
+    background-color:rgb(42, 40, 42) ;
+    margin-top: 3%;
+}
+
+#Image{
+    height: 400px;
+    width: 370px;
+    background-image:url(TondaniGrad.png) ;
+    background-size: cover;
+    background-position: left;
+    margin-left:1%;
+    border-radius: 200px;
+}
+
+#Image2{
+    height: 417px;
+    width: 370px;
+    background-image:url(Tondani.jpeg) ;
+    background-size: cover;
+    background-position: left;
+    margin-left: 15%;
+}
+
+.Information{margin-left:2%;
+}
+
+.icons{ display: flex;
+    
+ }
+
+.icons img{width: 38px;
+}
+
+
+.Skills{display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 19%;
+   width: 180px;
+   height: 160px;
+   margin-left:5%;
+   
+}
+
+.outer{margin-left: 130%;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+  box-shadow: 6px 6px 10px 1px rgb(226, 18, 52),
+                -6px 6px 10px 1px rgb(164, 18, 226);
+    padding: 20px;
+ }
+.inner{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    box-shadow: inset 4px 4px 10px -1px rgb(226, 18, 52);
+  
+ }
+.number{font-weight: 600px;
+    color: rgb(190, 48, 157);}
+
+
+    .outer1{margin-left: 130%;
+        width: 160px;
+        height: 160px;
+        border-radius: 50%;
+      box-shadow: 6px 6px 10px 1px rgb(226, 18, 52),
+                    -6px 6px 10px 1px rgb(164, 18, 226);
+        padding: 20px;
+     }
+    .inner1{
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center; 
+        justify-content: center;
+        box-shadow: inset 4px 4px 10px -1px rgb(226, 18, 52);
+       
+        
+     }
+    .number1{font-weight: 600px;
+        color:rgb(190, 48, 157);}
+
+        .outer2{margin-left: 130%;
+            width: 160px;
+            height: 160px;
+            border-radius: 50%;
+          box-shadow: 6px 6px 10px 1px rgb(226, 18, 52),
+                        -6px 6px 10px 1px rgb(164, 18, 226);
+            padding: 20px;
+         }
+        .inner2{
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center; 
+            justify-content: center;
+            box-shadow: inset 4px 4px 10px -1px rgb(226, 18, 52);
+            
+         }
+        .number2{font-weight: 600px;
+            color:rgb(190, 48, 157);}
+
+
+
+.border1{border: 1px solid palevioletred;
+    background-color:rgb(210, 34, 110);
+    height: 44px;
+    width: 777px;
+    color: rgb(15, 15, 15);
+    margin-top: 3%;}
+
+    .part1{display: grid;
+        grid-template-columns:1fr 1fr 1fr ;
+    }
+
+    .part2{display: grid;
+        grid-template-columns:1fr 1fr 1fr ;
+    }
+
+    .Contact{margin-top: 39%;
+        
+        grid-template-columns: 1fr 1fr;
+    }
+
+
+    .contact2{margin-left:25%;
+    margin-top: 1%;}
+
+    .contact2 i{
+        color: #f0f0f0;
+        font-size: 3rem;
+    }
+
+    .map{padding-left: 15%;
+        padding-top: 5%;
+    }
+
+    @media only screen and (max-width:768px)  {
+        .Text{display: block;
+        margin-left: 15%;}
+    }
+
+    @media only screen and (max-width:768px)  {
+      .Aboutme {display:block ;
+           
+        }
+    }
+    
+    @media only screen and (max-width:768px)  {
+        .Information{margin-right: 25%;
+             
+          }
+      }
+
+    @media only screen and (max-width:768px)  {
+        .outer{
+            margin-left: 1%;
+        }
+    }
+    
+    
+    @media only screen and (max-width:768px)  {
+        .outer1{
+            margin-left: 1%;
+        }
+    }
+    
+    @media only screen and (max-width:768px)  {
+        .outer2{
+            margin-left: 1%;
+        }
+        
+    }
+
+    @media only screen and (max-width:768px)  {
+        .Myskills{
+            padding-right: 22%;
+        }
+        
+    }
+
+    @media only screen and (max-width:768px)  {
+        .border1{width: 444px; 
+            padding-right: 25%;
+        }
+        
+    }
+
+    @media only screen and (max-width:768px)  {
+        .personal-skills{ 
+            padding-right: 15%;
+        }
+        
+    }
+
+    @media only screen and (max-width:768px)  {
+        .contactus{margin-top: 768px; 
+        }
+
+    @media only screen and (max-width:768px)  {
+        .Contact{margin-top: 768px;
+            
+        }
+        
+    }
+
+    @media only screen and (max-width:768px)  {
+        .Contact1{margin-left: 55%;
+            
+        }
+        
+    }
+
+
+
+    @media only screen and (max-width:425px)  {
+        .Text{
+        margin-right:15%;}
+    }
+    
+    @media only screen and (max-width:425px)  {
+        .Aboutme{width: 555px;
+        }
+    }
+
+
+    @media only screen and (max-width:425px)  {
+        .Information{
+            margin-left: 15%;
+            margin-top: 2%;
+        }
+    }
+    
+    @media only screen and (max-width:425px)  {
+        .Skills{margin-left: 15%;
+            display: inline;
+            
+        }
+    }
+
+
+    @media only screen and (max-width:425px)  {
+        .outer{
+            
+            margin-left: 45%;
+        }
+        
+    }
+    
+    
+    @media only screen and (max-width:425px)  {
+        .outer1{
+          
+            margin-left: 45%;
+            margin-top: 5%;
+        }
+        
+    }
+    
+    @media only screen and (max-width:425px)  {
+        .outer2{
+            margin-left: 45%;
+            margin-top: 5%;
+        }
+        
+    }
+
+    @media only screen and (max-width:425px)  {
+        .border1{width: 429px; 
+        }
+        
+    }
+
+    @media only screen and (max-width:425px)  {
+        .contactus{margin-right: 55%;
+        }
+
+    @media only screen and (max-width:425px)  {
+        .Contact{margin-top: 5%;
+            
+        }
+        
+    }
+
+    @media only screen and (max-width:425px)  {
+        .Contact1{margin-left: 55%;
+            
+        }
+        
+    }
+
+
+  
+   
+
+ 
+
+ 
+
+ 
+        
+
+       
+
+    
+
+        
