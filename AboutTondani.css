@@ -1,0 +1,458 @@
+*{margin:0px ;
+padding:0px ;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+box-sizing: border-box;
+}
+
+body{background-color: #000000;   
+    color: #fff;
+}
+
+.navigation{padding-top: 2%;
+    padding-left: 2%;
+    font-size: 25px;
+}
+
+ nav ul li{display: inline-block;
+    list-style: none;
+}
+
+nav ul li a{text-decoration: none;
+    color: #fff;;
+    position: relative;
+}
+
+nav ul li a::after{
+    content:'' ;
+    width: 0;
+    height: 3px;
+    background: rgb(190, 48, 157);
+    position:absolute;
+    left: 0;
+    bottom: -6px;
+    transition:0.5s ;
+}
+
+ul li a:hover::after{
+    width: 100%;
+}
+
+.Padding{padding-left: 1%;
+}
+
+.Pink{color: rgb(210, 34, 110);
+}
+
+/* Home */
+
+.Aspiring{font-style: italic;
+    color: palevioletred;
+}
+.Text{display: flex;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.Content{ 
+    margin-top: 7%; 
+    font-size: 25px;
+}
+
+#Image{
+    height: 600px;
+    width: 570px;
+    background-image:url(TondaniGrad.png) ;
+    background-size: cover;
+    background-position: left;
+    margin-left:1%;
+    border-radius: 500px;
+    }
+
+ .box2button{border: 1px solid palevioletred;
+    background-color:palevioletred;
+    border-radius: 5%;
+    color: rgb(106, 32, 176);
+    margin:10px 20px 10px 0px;
+    font-size: 25px;
+    }   
+
+.box2button a{text-decoration: none;
+    }
+
+.box p, .box2 a{Padding:10px
+}
+
+#hireme{height: 64px;
+    width: 120px;
+}
+
+#Download{height: 64px;
+    width: 200px;
+}
+
+/* About */
+
+.Aboutme{display: flex;
+    background-color:rgb(42, 40, 42) ;
+    margin-top: 5%;
+}
+
+
+#Image2{
+    height: 517px;
+    width: 870px;
+    background-image:url(Tondani.jpeg) ;
+    background-size: cover;
+}
+
+.Information{margin-left:1%;
+    margin-top: 1%;
+}
+
+.icons{ display: flex;
+    
+ }
+
+.icons img{width: 55px;
+}
+
+.para1{ color: rgb(210, 34, 110);
+    font-size: 20px;
+}
+
+.head1{ color: rgb(210, 34, 110);
+    font-size: 35px;
+}
+
+.para2{ color: #fff;
+    font-size: 20px;
+}
+
+.head2{ color: rgb(210, 34, 110);
+    font-size: 35px;
+    margin-bottom: 20px;
+    margin-top: 2%;
+}
+
+
+
+/* skills */
+
+.head3{margin-top: 2%;
+    margin-bottom: 2%;
+    color:rgb(210, 34, 110);
+    font-size: 35px;
+    text-align: center;
+}
+
+
+.Softskills{
+    display: flex;
+    justify-content:space-evenly;    
+  }
+
+.outer{
+    width: 260px;
+    height: 260px;
+    border-radius: 50%;
+  box-shadow: 6px 6px 10px 1px rgb(226, 18, 52),
+                -6px 6px 10px 1px rgb(161, 10, 216),
+                -6px 6px 10px 1px rgba(164, 18, 226, 0.579);
+    padding: 20px;
+ }
+.inner{background-color: rgba(255, 0, 221, 0.144);
+    width: 220px;
+            height: 220px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    box-shadow: inset 4px 4px 10px -1px rgb(226, 18, 52),
+    4px 4px 10px -1px rgba(226, 18, 53, 0.925),
+    4px 4px 10px -1px rgba(226, 18, 53, 0.599),
+    4px 4px 10px -1px rgba(226, 18, 53, 0.599);
+  
+ }
+.number{font-weight: 600px;
+    color: rgb(190, 48, 157);}
+
+
+    .outer1{
+        width: 260px;
+        height: 260px;
+        border-radius: 50%;
+      box-shadow: 6px 6px 10px 1px rgb(226, 18, 52),
+                    -6px 6px 10px 1px rgb(164, 18, 226),
+                    -6px 6px 10px 1px rgba(164, 18, 226, 0.579);
+        padding: 20px;
+     }
+    .inner1{background-color: rgba(255, 0, 221, 0.144);
+        width: 220px;
+            height: 220px;;
+        border-radius: 50%;
+        display: flex;
+        align-items: center; 
+        justify-content: center;
+        box-shadow: inset 4px 4px 10px -1px rgb(226, 18, 52),
+        4px 4px 10px -1px rgba(226, 18, 53, 0.925),
+        4px 4px 10px -1px rgba(226, 18, 53, 0.599),
+        4px 4px 10px -1px rgba(226, 18, 53, 0.599);
+     }
+    .number1{font-weight: 600px;
+        color:rgb(190, 48, 157);}
+
+        .outer2{
+            width: 260px;
+            height: 260px;
+            border-radius: 50%;
+          box-shadow: 6px 6px 10px 1px rgb(226, 18, 52),
+                        -6px 6px 10px 1px rgb(164, 18, 226),
+                        -6px 6px 10px 1px rgba(164, 18, 226, 0.579);
+            padding: 20px;
+         }
+        .inner2{background-color: rgba(255, 0, 221, 0.144);
+            width: 220px;
+            height: 220px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center; 
+            justify-content: center;
+            box-shadow: inset 4px 4px 10px -1px rgb(226, 18, 52),
+            4px 4px 10px -1px rgba(226, 18, 53, 0.925),
+        4px 4px 10px -1px rgba(226, 18, 53, 0.599),
+        4px 4px 10px -1px rgba(226, 18, 53, 0.599);
+            
+         }
+        .number2{font-weight: 600px;
+            color:rgb(190, 48, 157);}
+
+       
+       
+.personal-skills{
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+        }
+
+.border1{border: 1px solid rgb(41, 39, 40);
+    background-color:rgb(210, 34, 110);
+    width: 55%;
+    color: rgb(15, 15, 15);
+    margin-top: 2%;
+}
+
+.border1 p{
+    padding: 1em;
+    text-align: center;
+}
+
+/* Form */
+
+.Contactus{margin-top: 2%;
+    color:rgb(210, 34, 110);
+    font-size: 35px;
+    text-align: center;
+}
+
+/* .form  {color: #fff;
+    height:52px;
+    width: 100%;
+    background-color: rgba(17, 77, 197, 0.567);
+}
+
+.form1 {color: #fff;
+    height:52px;
+    width: 732px;
+    background-color: rgba(17, 77, 197, 0.567);
+} */
+
+.button{width: 85px;
+    padding: 1%;
+    margin-top: 2%;
+    background-color:palevioletred;
+}
+
+.Contact1{margin-left:25%;
+}
+
+.Contact2{margin-left:24%;
+margin-top: 1%;
+}
+
+.Contact2 i{padding-left: 2%;
+     color:  #fff;
+    font-size: 4rem;
+}
+
+.website{margin-bottom: 2%;
+}
+
+
+.map{margin-left: 25%;
+    margin-top: 2%;
+}
+
+
+
+    /* responsive */
+    @media only screen and (max-width:768px)  {
+        .Text{display: block;
+        }
+    }
+
+    @media only screen and (max-width:768px)  {
+        .Aboutme{display: block;
+          }
+      }
+      
+      @media only screen and (max-width:768px)  {
+        .head3{
+            margin-left: 5%;
+          }
+      }
+
+
+    @media only screen and (max-width:768px)  {
+        .Softskills{display: block;
+            margin-left: 35%;
+          }
+      }
+
+      @media only screen and (max-width:768px)  {
+        .outer{
+            margin-top: 5%;
+        }
+    }
+    
+    
+    @media only screen and (max-width:768px)  {
+        .outer1{ margin-top: 5%;
+        }
+    }
+    
+    @media only screen and (max-width:768px)  {
+        .outer2{
+            margin-top: 5%;
+        }
+    }
+
+    @media only screen and (max-width:425px)  {
+        .Content{margin-left: 35%;
+            display: inline-block;
+            
+        }
+    }
+    @media only screen and (max-width:425px)  {
+        .Aboutme{width: 769px;
+        }
+    }
+
+    @media only screen and (max-width:425px)  {
+        .Softskills{
+            margin-left: 55%;
+          }
+      }
+    
+    @media only screen and (max-width:768px)  {
+        .head3{margin-left: 69%;
+          }
+      }
+
+      @media only screen and (max-width:425px)  {
+        .border1{width: 429px; 
+      
+        }
+
+        @media only screen and (max-width:768px)  {
+            .personal-skills{
+                padding-left: 75%;
+                padding-top: 5%;
+            }
+        }
+        
+        @media only screen and (max-width:425px)  {
+            .outer1{
+                margin-top: 8%;
+            }
+        }
+        
+        @media only screen and (max-width:425px)  {
+            .outer2{
+                margin-top: 8%;
+            }
+        }
+    
+        @media only screen and (max-width:425px)  {
+            .Contact{
+                margin-left: 15%;
+            }
+        } 
+
+
+        
+        @media only screen and (max-width:425px)  {
+            .Contactus{
+            margin-left: 15%;
+            }
+        } 
+
+
+        @media only screen and (max-width:425px)  {
+            .Contact1{
+             width:659px; 
+            }
+        } 
+
+     /* max-width:768px */
+    /* 
+    @media only screen and (max-width:1024px)  {
+        .Contact{height: 100vh;
+    }
+    }
+    @media only screen and (max-width:1024px)  {
+        .contactus{margin-top: 5%
+    }
+    }
+
+    @media only screen and (max-width:768px)  {
+        .Image2{width: 455px;
+
+        }
+    }
+
+    @media only screen and (max-width:768px)  {
+        .Image{max-width: 100%;
+            height:100vh ;
+        }
+    }
+
+
+    @media only screen and (max-width:768px)  {
+        .Information{margin-right: 25%;
+          }
+      }
+
+
+    @media only screen and (max-width:425px)  {
+        .Information{
+            margin-left: 15%;
+            margin-top: 2%;
+        }
+    }
+        
+     */
+
+       
+
+ 
+
+ 
+
+ 
+        
+
+       
+
+    
+
+        
